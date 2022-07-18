@@ -8,20 +8,7 @@
 }
 
 .App-bar {
-  margin: 10px;
-}
-
-.search-bar{
-  background-color:white;
-  padding-left: 10px;
-  border-radius: 25px!important;
-  font-size: 1rem!important;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 25px;
 }
 
 .App-header {
@@ -33,6 +20,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-link {

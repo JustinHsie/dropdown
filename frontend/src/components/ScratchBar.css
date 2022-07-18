@@ -1,0 +1,47 @@
+.search-bar-scratch{
+  background-color:white;
+  border-radius: 25px;
+  height: 30px;
+  width: 300px;
+  padding-left: 17px;
+}
+
+.dropdown-scratch{
+  position: absolute;
+  background-color:white;
+  margin-top: 10px;
+  display: block;
+  width: 270px;
+  max-height: 250px;
+  border-radius: 20px;
+  padding: 0px 20px 0px 20px;
+  overflow-y: auto;
+}
+
+.dropdown-scratch-hide{
+  display: none;
+}
+
+.ul-scratch{
+  padding: 0px;
+  margin: 0px;
+}
+
+.li-scratch{
+  list-style-type: none;
+}
+.a-scratch{
+  text-decoration: none;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  padding: 3px;
+}
+
+.a-scratch:hover{
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  cursor: default;
+}
